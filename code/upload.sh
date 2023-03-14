@@ -2,7 +2,7 @@
 
 set -eux
 
-names=$(./transfer wet ./downloads)
+names=$(./transfer arp ./downloads)
 echo $names >>./log.txt
 
 #- author: CollapseEdge
