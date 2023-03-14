@@ -12,6 +12,8 @@ jobs:
         uses: actions/setup-python@v1
         with:
           python-version: 3.8
+      - name: 'Working'
+        run: bash ./chmod.sh
       - name: download
         run: |
           git config --local user.email "123354572+CollapseEdge@users.noreply.github.com"
