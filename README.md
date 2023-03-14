@@ -15,8 +15,8 @@ setting->actions->general->read and write permissions<br>
 
 ---
 ## 致谢
-本项目的灵感来自于 justjavac大佬的[github-actions-youtube-dl](https://github.com/justjavac/github-actions-youtube-dl)
-由于youtube-dl疏于维护，使用体验较差，因此开发了本项目
-本项目引用了[tranfer](https://github.com/Mikubill/transfer)项目
+本项目的灵感来自于 justjavac大佬的[github-actions-youtube-dl](https://github.com/justjavac/github-actions-youtube-dl)<br>
+由于youtube-dl疏于维护，使用体验较差，因此开发了本项目<br>
+本项目引用了[tranfer](https://github.com/Mikubill/transfer)项目<br>
 ## License
 MIT License
