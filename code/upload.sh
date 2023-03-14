@@ -3,10 +3,7 @@
 set -eux
 
 names=$(./transfer wet ./downloads)
-for line in $names
-do
-        echo $line >>./log.txt
-done
+echo $names >>./log.txt
 
 #- author: CollapseEdge
 #- github: https://github.com/CollapseEdge/yt-dlp-on-action

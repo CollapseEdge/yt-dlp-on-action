@@ -22,7 +22,7 @@ jobs:
           git config --local user.name "CollapseEdge"
           ./code/yt-dlp --config-location ./code/config.txt
           ./code/upload.sh
-          git add .
+          git add log.txt
           git commit -m "download youtube video"
           git push
 
