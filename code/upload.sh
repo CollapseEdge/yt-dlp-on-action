@@ -2,7 +2,7 @@
 
 set -eux
 
-names=$(./transfer wet ../downloads)
+names=$(./transfer wet ./downloads)
 for line in $names
 do
         echo $line >>./log.txt
