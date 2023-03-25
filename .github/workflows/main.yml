@@ -25,4 +25,6 @@ jobs:
           ./code/upload.sh
           git add log.txt
           git commit -m "download youtube video"
+          git add download.txt
+          git commit -m "Empty download link"
           git push
