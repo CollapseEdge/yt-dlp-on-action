@@ -2,7 +2,7 @@
 
 set -eux
 
-names=$(./transfer muse ./downloads)
+names=$(./transfer fic ./downloads)
 echo $names >>./log.txt
 
 #- author: CollapseEdge
